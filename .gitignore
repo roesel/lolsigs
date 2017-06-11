@@ -1,0 +1,4 @@
+secrets/*.secret.php
+*.secret.php
+*_cache/*.png
+\.htaccess

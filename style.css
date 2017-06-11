@@ -1,0 +1,365 @@
+/* CSS file */
+
+/*color 382F29*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    /*color: #333;*/
+    color: rgb(39, 36, 34);
+    font-size: 18px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+}
+
+#background-image-top {
+    background-image: url('img/wallpaper.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#background-image-bottom {
+    background-image: url('img/wallpaper.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.warning.top {
+    text-align: center;
+    padding: 10px 32px;        
+}
+
+.warning.negative {
+    /*background-color: rgb(255, 168, 168);*/
+    background-color: rgb(255, 192, 192);
+    border: 1px solid rgb(236, 128, 128);
+    color: rgb(197, 0, 0);
+    text-shadow: rgba(200, 200, 200, 0.5) 1px 1px 1px;
+    
+    display: none;
+}
+
+.warning.positive {
+    /*background-color: rgb(184, 244, 184);*/
+    background-color: rgb(206, 249, 206);
+    border: 1px solid rgb(102, 189, 102);
+    color: rgb(45, 136, 45);
+    text-shadow: rgba(200, 200, 200, 0.5) 1px 1px 1px;
+    
+    /*display: none;*/
+}
+
+#background-center {
+/*    background-color: white;
+    background-color: #FFF3EC;*/
+    background-color: rgb(255, 249, 246);
+}
+
+#background-bottom {
+    background-color: rgba(255, 255, 255, 0.9);    
+}
+
+#background-footer {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    background-color: rgba(47, 31, 21, 0.5);    
+}
+
+#wrapper-top,
+#wrapper-center,
+#wrapper-bottom,
+#wrapper-footer {
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#content-center {
+    padding: 32px 24px 16px 24px;
+    text-align: center;
+    color: #2F1F15;
+    text-shadow: rgb(230, 230, 230) 1px 1px 1px;
+    font-size: 1.1em;
+}
+
+
+#content-bottom {    
+    font-size:0.9em;
+    color: #382F29;
+    text-shadow: rgb(230, 230, 230) 1px 1px 1px;
+    text-align: center;
+    padding: 16px 0 16px 0;
+}
+
+#content-footer {
+    padding: 64px 0 0 0;
+}
+
+.flexcontainer-center {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.flexcontainer-center div{
+    padding: 8px 0px;   
+}
+.flexcontainer-center p {
+    padding: 0px 16px;   
+    border: 1px solid silver;
+    border-width: 0 0 0 1px;
+}
+
+.flexcontainer-center div:first-child p {
+    padding: 0 16px 0 0; 
+    border: 0;
+}
+
+.flexcontainer-center div:last-child p {
+    padding: 0 0 0 16px; 
+}
+
+a {
+    color: #3079ED;
+}
+
+
+#page-title {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(255, 249, 246);
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    height: 129px;
+    margin: 50px 0 10px 0;
+    padding: 30px 0;
+    text-align: center;
+    text-shadow: rgb(77, 77, 77) 3px 3px 3px;
+    text-shadow: #2F5BB7 3px 3px 3px;
+}
+
+#page-title a {
+    text-decoration: none;
+    color: rgb(255, 249, 246);
+}
+
+#result {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+#signature {    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    background-color: white;
+    
+    width: 450px;
+}
+
+#form {
+    text-align: center;
+    padding: 64px 0;
+    /*color: white;*/
+    /*text-shadow: rgb(77, 77, 77) 3px 3px 3px;*/
+}
+
+#form form {
+    padding: 32px;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    
+    border: 1px solid rgb(255, 243, 236);
+    background-color: white;
+    
+    font-size: 0.85em;
+    
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#url {    
+    font-size: 1em;
+}
+
+#footer {
+    color: silver;
+    padding: 16px 0 16px 0;
+    text-shadow: rgb(0,0,0) 1px 1px 1px;
+    border-top: 1px solid #B9B9B9;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.warning.content {
+    color: #d14836;
+    color: #c53727;
+    color: #dd4b39;
+}
+
+#introduction {
+    font-style: italic;
+}
+
+/* image loading */
+
+/* 
+*  The .img_wrapper and img styles should be 
+*  changed to suit your project. The only crucial
+*  properties are the opacity values and CSS3 transitions
+*  defined on the img tags.
+*/
+
+.img_wrapper{
+    position: relative;
+/*    padding-top: 75%;
+    margin-bottom: 40px;*/
+    min-height: 80px;
+    /*background: #fafafa;*/    
+    overflow: hidden;
+}
+
+.img_wrapper img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+    background-image: -webkit-linear-gradient(45deg,#efefef 25%,transparent 25%,transparent 75%,#efefef 75%,#efefef),-webkit-linear-gradient(45deg,#efefef 25%,transparent 25%,transparent 75%,#efefef 75%,#efefef);
+    background-position: 0 0,10px 10px;
+    -webkit-background-size: 21px 21px;
+    background-size: 21px 21px;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.img_wrapper.loaded img{
+    opacity: 1;
+}
+
+.img_wrapper.loaded .css_spinner{
+    display: none;
+}
+
+/*
+* CSS loading spinner styles for second example.
+* You could also use a background image .gif 
+* on the img_wrapper, or any rotating element.
+*/
+
+.css_spinner{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 50%;
+	top: 50%;
+	margin: -24px 0 0 -24px;
+	opacity: .3;
+	
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+}
+
+.css_spinner .half{
+	position: absolute;
+	width: 24px;
+	height: 48px;
+	top: 0;
+	overflow: hidden;
+}
+
+.css_spinner .left{
+	left: 0px;
+	
+	-webkit-border-radius: 999px 0 0 999px;
+	-moz-border-radius: 999px 0 0 999px;
+	border-radius: 999px 0 0 999px;
+}
+
+.css_spinner .right{
+	left: 24px;
+	
+	-webkit-border-radius: 0 999px 999px 0;
+	-moz-border-radius: 0 999px 999px 0;
+	border-radius: 0 999px 999px 0;
+}
+
+.css_spinner .band{
+	position: absolute;
+	width: 24px;
+	height: 48px;
+	background: #75665C;
+	
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+	
+	-webkit-animation: cssSpinnerRight 1.5s infinite linear;
+	-moz-animation: cssSpinnerRight 1.5s infinite linear;
+}
+
+.css_spinner .left .band{
+	left: 0;
+	border-left: 24px solid #fafafa;
+
+	-webkit-animation: cssSpinnerLeft 1.5s infinite linear;
+	-moz-animation: cssSpinnerLeft 1.5s infinite linear;
+}
+
+.css_spinner .right .band{
+	right: 0;
+	border-right: 24px solid #fafafa;
+}
+
+@-webkit-keyframes cssSpinnerLeft{
+  0%{-webkit-transform:rotate(0deg)}
+  25%{-webkit-transform:rotate(0deg)}
+  50%{-webkit-transform:rotate(180deg)}
+  75%{-webkit-transform:rotate(180deg)}
+  100%{-webkit-transform:rotate(360deg)}
+}
+
+@-webkit-keyframes cssSpinnerRight{
+  0%{-webkit-transform:rotate(0deg)}
+  25%{-webkit-transform:rotate(180deg)}
+  50%{-webkit-transform:rotate(180deg)}
+  75%{-webkit-transform:rotate(360deg)}
+  100%{-webkit-transform:rotate(360deg)}
+}
+
+@-moz-keyframes cssSpinnerLeft{
+  0%{-moz-transform:rotate(0deg)}
+  25%{-moz-transform:rotate(0deg)}
+  50%{-moz-transform:rotate(180deg)}
+  75%{-moz-transform:rotate(180deg)}
+  100%{-moz-transform:rotate(360deg)}
+}
+
+@-moz-keyframes cssSpinnerRight{
+  0%{-moz-transform:rotate(0deg)}
+  25%{-moz-transform:rotate(180deg)}
+  50%{-moz-transform:rotate(180deg)}
+  75%{-moz-transform:rotate(360deg)}
+  100%{-moz-transform:rotate(360deg)}
+}
