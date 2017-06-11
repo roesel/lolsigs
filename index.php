@@ -339,6 +339,7 @@ $region_array = array(
                         <div id="footer">
                             Signature creator itself was written by <strong><a href="https://twitter.com/erthylol">Erthy</a></strong>
                             (<a href="http://www.lolking.net/summoner/eune/26174422">Erthainel</a>@EUNE). Web interface design by <strong><a href="<?php print htmlspecialchars('mailto:ondrian.t[at]gmail[dot]com');?>">Ondrian</a></strong>.<br>
+                            Huge thanks to <strong>1lann</strong> for insane amounts of help with the Go backend.<br>
                             Others: interface by <strong>Sun</strong>, props to <strong>[zG]Woods</strong>, champion and skin numbers by <strong>Hobbesclone</strong>, <strong>Viitrexx</strong> and <strong>Carlxz</strong>.<br>
                             <br>The LoL Signature Generator isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
                             <br>
