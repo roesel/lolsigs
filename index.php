@@ -301,6 +301,20 @@ $region_array = array(
 
                     <div id="content-bottom">
                         <div class="flexcontainer-center">
+                            <div style="width:800px;">
+                                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- Lolsigs -->
+                                <ins class="adsbygoogle"
+                                     style="display:block"
+                                     data-ad-client="ca-pub-7860058313368973"
+                                     data-ad-slot="6054124582"
+                                     data-ad-format="auto"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+                        <div class="flexcontainer-center">
                             <div>
                                 <h4>TIP:</h4><p> To find a champion quicker, open the selectbox and press the first few letters.</p>
                             </div>
