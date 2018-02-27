@@ -153,9 +153,9 @@ $region_array = array(
             ;
         </script>
 
-        <div class="warning top positive">
+        <!--<div class="warning top positive">
             Whoa! No ads! Consider <strong>pledging on <a href="https://www.patreon.com/lolsigs">Patreon</a></strong> or <strong>donating via PayPal <small>(roesel@gmail.com)</small></strong>.  Thanks.
-        </div>
+        </div>-->
         <div id="background-image-top">
             <div id="background-top">
                 <div id="wrapper-top">
@@ -288,7 +288,7 @@ $region_array = array(
                         <p id="introduction"><strong>Welcome summoner</strong>, you have found yourself on the LoL signature maker, where you can make your own signature
                             featuring the stats you have managed to achieve in the ranked games. It will look just like this:</p>
                         <br>
-                        <div id="signature"><img src="<?php print(WEB); ?>Ruzgud_eune_238_2.png" title="Ruzgud@EUNE" alt="Example signature"/></div>
+                        <div id="signature"><img src="<?php print(WEB); ?>FORG1VENGRE_eune_238_2.png" title="FORG1VENGRE@EUNE" alt="Example signature"/></div>
                         <?php
                     }
                     ?>
